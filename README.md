@@ -3,7 +3,7 @@
 ## Configuración inicial
 
 1. Se recomienda utilizar Apache NetBeans como IDE de desarrollo. Puede descargar la última versión desde [aquí](https://netbeans.apache.org/front/main/download/). O en su defecto, IntelliJ IDEA. Puede descargar la última versión desde [aquí](https://www.jetbrains.com/es-es/idea/download/?section=windows).
-2. Instalar cualquier versión de Java JDK que sea superior a v17, la cual puede descargarse [aquí]([https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi](https://www.oracle.com/ar/java/technologies/downloads/#java21)).
+2. Instalar cualquier versión de Java JDK que sea superior a v17, la cual puede descargarse [aquí](https://www.oracle.com/ar/java/technologies/downloads/#java21).
 
 ### Librerías
 
@@ -80,10 +80,10 @@ Para una mejor referencia de cuál es el área a la que contribuye un commit, se
 
 #### Manejo de ramas de desarrollo
 
-Para más facilidad en el manejo de las ramas de desarrollo, se recomienda utilizar el módulo incorporado de GitHub Desktop (descargable [aquí](https://central.github.com/deployments/desktop/desktop/latest/win32)), al cual puede accederse haciendo click en la opción `Git` en la barra de menú superior y en el botón de la esquina inferior derecha del IDE, donde se visualiza la rama activa actual.
+Para más facilidad en el manejo de las ramas de desarrollo, se recomienda utilizar el módulo incorporado de GitHub Desktop (descargable [aquí](https://central.github.com/deployments/desktop/desktop/latest/win32)).
 
 - Para crear una nueva rama de desarrollo, se debe hacer checkout de la rama `release/[numero_de_version]` vigente y crear (hacer checkout de) una nueva rama a partir de esta.
-  - `git checkout release/[numero_de_version]
+  - `git checkout release/[numero_de_version]`
   - `git checkout -b feature/57-login`
 - Para actualizar una rama de desarrollo, se debe hacer checkout de la rama `release/[numero_de_version]` vigente y realizar un merge hacia la rama de desarrollo correspondiente.
   - `git checkout release/[numero_de_version]`
@@ -120,20 +120,13 @@ En el caso de que una PR modifique varias áreas del proyecto, se deberá inclui
 <summary>Listado de las herramientas y tecnologías usadas para el desarrollo</summary>
 #### Herramientas de desarrollo
 
-- [IntelliJ 2023] - IDE para desarrollo de aplicaciones Java.
+- [IntelliJ 2023](https://www.jetbrains.com/es-es/idea/) - IDE para desarrollo de aplicaciones Java.
 - [Visual Studio Code](https://code.visualstudio.com/) - Editor de codigo.
 - [Git](https://git-scm.com/) - Sistema de control de versiones.
 - [GitHub](https://github.com) - Plataforma de desarrollo colaborativo.
 - [Github Projects](https://github.com) - Plataforma de gestión de proyectos.
 - [DBeaver](https://dbeaver.io/) - Herramienta para administración de bases de datos.
 - [MySQL](https://www.mysql.com/) - Base de datos relacional.
-
-#### Despliegue de versiones de desarrollo
-
-- [Vercel](https://vercel.com/) - Plataforma de hosting de aplicaciones web.
-  - Para aplicaciones de frontend.
-- [Render](https://render.com/) - Plataforma de hosting de aplicaciones web.
-  - Para aplicaciones de backend.
 
 #### Lenguajes de programación
 
