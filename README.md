@@ -3,49 +3,45 @@
 ## Configuración inicial
 
 1. Se recomienda utilizar Apache NetBeans como IDE de desarrollo. Puede descargar la última versión desde [aquí](https://netbeans.apache.org/front/main/download/). O en su defecto, IntelliJ IDEA. Puede descargar la última versión desde [aquí](https://www.jetbrains.com/es-es/idea/download/?section=windows).
-2. Instalar cualquier versión de Java JDK que sea superior a v17, la cual puede descargarse [aquí]([https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi](https://www.oracle.com/ar/java/technologies/downloads/#java21)).
-
-## Aplicaciones
-
-<details>
-  <summary>Referencia sobre ejecución de aplicaciones, librerías y scripts del proyecto</summary>
+2. Instalar cualquier version de Java JDK que sea superior a v17, la cual puede descargarse [aquí]([https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi](https://www.oracle.com/ar/java/technologies/downloads/#java21)).
 
 ### Librerías
 
-- `/Resources/Libraries` - Todas las librerías deben importarse en el proyecto.
+- `/Resources/Libraries` - Todas las librerias deben importarse en el proyecto.
 
 ## Referencia de directorios
 
-	-`Controller`: Contiene clases responsables de manejar la entrada del usuario y gestionar el flujo de datos hacia y desde el DAO y la interfaz de usuario.
+	- `Controller` : Contiene clases responsables de manejar la entrada del usuario y gestionar el flujo de datos hacia y desde el DAO y la interfaz de usuario.
 
-	-`DAO`: Abreviatura de Data Access Object. Contiene clases responsables de interactuar con la base de datos, encapsulando la lógica de acceso a la base de datos.
+	- `DAO` : Abreviatura de Data Access Object. Contiene clases responsables de interactuar con la base de datos, encapsulando la lógica de acceso a la base de datos.
 
-	-`Files`: Reservado para almacenar varios archivos relacionados con el proyecto.
+	- `Files` : Reservado para almacenar varios archivos relacionados con el proyecto.
 
-	-`Frame`: Contiene clases relacionadas con los frames o ventanas de la interfaz gráfica.
+	- `Frame` : Contiene clases relacionadas con los frames o ventanas de la interfaz gráfica.
 
-	-`Images`: Almacena imágenes utilizadas en el proyecto. Subcarpetas como background, icon_original, icon_resize, logo_original, logo_resize y PDF categorizan diferentes tipos de imágenes.
+	- `Images` : Almacena imágenes utilizadas en el proyecto. Subcarpetas como background, icon_original, icon_resize, logo_original, logo_resize y PDF categorizan diferentes tipos de imágenes.
 
-	-`Objects`: Contiene clases que representan varios objetos en el proyecto. La subcarpeta Unifiers podría contener clases relacionadas con la unificación o estandarización de ciertas funcionalidades.
+	- `Objects` : Contiene clases que representan varios objetos en el proyecto. La subcarpeta Unifiers podría contener clases relacionadas con la unificación o estandarización de ciertas funcionalidades.
 
-	-`Panels`: Alberga clases relacionadas con diferentes paneles de la interfaz de usuario, incluyendo subcarpetas para funcionalidades específicas como Agenda, Calendar, Config, Finance, Legal, Logo, Payment_History, People y Price_List.
+	- `Panels` : Alberga clases relacionadas con diferentes paneles de la interfaz de usuario, incluyendo subcarpetas para funcionalidades específicas como Agenda, Calendar, Config, Finance, Legal, Logo, Payment_History, People y Price_List.
 
-	-`PDF`: Reservado para almacenar archivos relacionados con PDF.
+	- `PDF` : Reservado para almacenar archivos relacionados con PDF.
 
-	-`Resources`: Contiene recursos generales utilizados en el proyecto, y subcarpetas como Others pueden contener archivos de recursos adicionales.
+	- `Resources` : Contiene recursos generales utilizados en el proyecto, y subcarpetas como Others pueden contener archivos de recursos adicionales.
 
-	-`Service`: Contiene clases que proporcionan servicios o lógica empresarial a otras partes de la aplicación.
+	- `Service` : Contiene clases que proporcionan servicios o lógica empresarial a otras partes de la aplicación.
 
-	-`Utils`: Clases de utilidad para diferentes propósitos, incluyendo subcarpetas como Cronos para manejar tareas relacionadas con el tiempo, Migration para migración de bases de datos, y Security para utilidades relacionadas con la seguridad.
+	- `Utils` : Clases de utilidad para diferentes propósitos, incluyendo subcarpetas como Cronos para manejar tareas relacionadas con el tiempo, Migration para migración de bases de datos, y Security para utilidades relacionadas con la seguridad.
 
-	Windows: Contiene clases relacionadas con diferentes ventanas de la aplicación.
+	- `Windows` : Contiene clases relacionadas con diferentes ventanas de la aplicación.
 
 ## Proceso de Desarrollo
 
 <details>
 
 <summary>Nociones sobre el proceso de desarrollo y cómo realizar las contribuciones de código y documentación del proyecto</summary>
-### Consejos para generación de commits
+
+#### Consejos para generación de commits
 
 - Hacer commits pequeños y frecuentes, para facilitar la revisión de los cambios.
   - Ejemplo: Si se está trabajando en una funcionalidad que requiere de 3 commits, se deberán realizar 3 commits, en lugar de realizar un commit con los 3 cambios.
