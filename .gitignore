@@ -90,3 +90,6 @@ manifest.mf
 
 # Environment variables
 .env
+
+# Security keys
+Resources/Files/Crypto
