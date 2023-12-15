@@ -16,6 +16,9 @@ public class PaymentHistory {
     private Calendar dateStart; // date_start TIMESTAMP NOT NULL,
     private Calendar dateEnd; // date_end TIMESTAMP NOT NULL
 
+    private People people;
+    private User user;
+
     public void showData() {
         System.out.println("ID: " + id);
         System.out.println("Payment Method: " + paymentMethod);
@@ -110,6 +113,18 @@ public class PaymentHistory {
     }
     public void setDateEnd(Calendar dateEnd) {
         this.dateEnd = dateEnd;
+    }
+    public People getPeople() {
+        return people;
+    }
+    public void setPeople(People people) {
+        this.people = people;
+    }
+    public User getUser() {
+        return user;
+    }
+    public void setUser(User user) {
+        this.user = user;
     }
 
 }
